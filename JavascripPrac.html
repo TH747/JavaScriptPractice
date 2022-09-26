@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width-device-width, initial scale=1.0">
+  <title>javaScriptPrac</title>
+
+<link rel="stylesheet" href="bmiStyles.css">
+
+</head>
+
+<body>
+
+  <!--Light Switch-->
+    <p id="example"></p>  
+    <button onclick="turnOn()">Turn on the light</button>
+    <img src="pic_bulboff.gif" alt="Light Bulb" id="bulb-image">
+    <button onclick="turnOff()">Turn off the light</button>
+
+ <!--BMI-->
+      <h2>Body Mass Index <br>(BMI) Calculator</h2>
+
+      <p class="text">Height (cm)</p>
+      <input type="number" id="h">
+
+      <p class="text">Weight (kg)</p>
+      <input type="number" id="w">
+
+      <p id="result"></p>
+
+      <p id="message"></p>
+
+      <button id='btn' onclick='calculateBmi()'>Calculate</button>
+
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
